@@ -1,0 +1,87 @@
+{
+  "title": "Kedai Senja — Ep 1: Kopi untuk yang Belum Tidur",
+  "fps": 30,
+  "size": [1080, 1920],
+  "font": "Arial",
+  "fontsize": 68,
+  "voice_id": "id-ID-ArdiNeural",
+  "bgm_volume": 0.12,
+  "shots": [
+    {
+      "image": "panels/01.png",
+      "duration": 3.5,
+      "motion": "zoom_in",
+      "fade_in": true,
+      "tag": "SORE HARI — KEDAI SENJA",
+      "narasi": "Pelanggan ini membawa sesuatu yang tidak bisa ia lihat.",
+      "caption": "Pelanggan ini membawa sesuatu\nyang tidak bisa ia lihat."
+    },
+    {
+      "image": "panels/02.png",
+      "duration": 4.0,
+      "motion": "pan_right",
+      "narasi": "Namaku Raka. Sepulang sekolah, aku menjaga kedai kopi nenekku.",
+      "caption": "Namaku Raka. Sepulang sekolah,\naku menjaga kedai kopi nenekku."
+    },
+    {
+      "image": "panels/03.png",
+      "duration": 4.0,
+      "motion": "zoom_in",
+      "narasi": "Kakak ini sudah tiga hari tidak tidur. Skripsinya belum selesai.",
+      "caption": "Kakak ini sudah tiga hari tidak tidur.\nSkripsinya belum selesai."
+    },
+    {
+      "image": "panels/04.png",
+      "duration": 4.0,
+      "motion": "pan_up",
+      "narasi": "Dan di bahunya, ada Gelisah. Hanya aku yang bisa melihatnya.",
+      "caption": "Dan di bahunya… ada Gelisah.\nHanya aku yang bisa melihatnya."
+    },
+    {
+      "image": "panels/05.png",
+      "duration": 2.5,
+      "motion": "zoom_in",
+      "narasi": "Makin lama, ia makin besar.",
+      "caption": "Makin lama, ia makin besar."
+    },
+    {
+      "image": "panels/06.png",
+      "duration": 2.5,
+      "motion": "shake",
+      "flash": true,
+      "narasi": "Jadi sebelum kopinya dingin,",
+      "caption": "Jadi sebelum kopinya dingin—"
+    },
+    {
+      "image": "panels/07.png",
+      "duration": 2.5,
+      "motion": "shake",
+      "flash": true,
+      "narasi": "aku mengetuknya pergi.",
+      "caption": "—aku mengetuknya pergi."
+    },
+    {
+      "image": "panels/08.png",
+      "duration": 4.0,
+      "motion": "zoom_out",
+      "narasi": "Ia tidak tahu apa yang terjadi. Ia hanya merasa, bahunya lebih ringan.",
+      "caption": "Ia tidak tahu apa yang terjadi.\nHanya… bahunya terasa lebih ringan."
+    },
+    {
+      "image": "panels/09.png",
+      "duration": 4.0,
+      "motion": "pan_left",
+      "narasi": "Gelisah tidak pernah benar-benar hilang. Tapi hari ini, cukup.",
+      "caption": "Gelisah tidak pernah benar-benar hilang.\nTapi hari ini, cukup."
+    },
+    {
+      "image": "panels/10.png",
+      "duration": 4.0,
+      "motion": "zoom_in",
+      "fade_out": true,
+      "narasi": "Besok, ada pelanggan berjaket kuning. Dan Gelisahnya, tidak mau lepas.",
+      "caption": "Besok: pelanggan berjaket kuning.\nDan Gelisahnya… tidak mau lepas.",
+      "tag": "FOLLOW UNTUK EPISODE 2"
+    }
+  ]
+}
