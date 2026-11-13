@@ -1,5 +1,7 @@
 # Petani dari Alam Lelembut — Naskah & Shot List Season 1 (8 Episode × 60 Detik)
 
+> **Catatan:** kolom "Prompt Omni" di file ini adalah draf awal. Prompt final per shot (memakai Flow Characters `@Nama`, ucapan, lip-sync, dan sound design) ada di `03_prompt_pack_s1.md`, dan versi siap tempel di `04_prompt_siap_tempel.md`. Beat, durasi, caption, dan CTA di file ini tetap berlaku.
+
 Status: DRAF produksi. Tidak ada yang diposting atau dijadwalkan sebelum Anda menyetujui batch tertentu (episode, platform, jadwal).
 
 ## Cara memakai

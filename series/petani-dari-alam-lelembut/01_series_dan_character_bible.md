@@ -96,7 +96,7 @@ Jangan menyebut nama studio, judul anime, atau karakter francais mana pun di pro
 [LURAH] big friendly moss-green ogre village head with small tusks, plaid sarong, headband, worried kind face
 ```
 
-**Jangkar suara (tempel di prompt setiap shot yang ada ucapan, agar suara tidak berubah antar klip):**
+**Jangkar suara (draf awal). Digantikan oleh fitur Characters di Flow (`@Nama` + Voice Performance); lihat `03_prompt_pack_s1.md` bagian 1. Teks di bawah tetap berguna sebagai bahan isian Voice Performance:**
 
 ```
 [DANU voice] tired, dry, deadpan young adult male voice, mid-low pitch, speaks Indonesian
@@ -123,7 +123,7 @@ Aset minimum: 5 character sheet (Danu, Laras, Cokro, Gendro, Lurah), 5 still lok
 1. **Satu klip = satu shot kontinu.** Selalu tulis "single continuous shot, no scene cuts". Pemotongan dilakukan di editor.
 2. **Grid durasi tetap per episode (total 60 detik):** S1 4 dtk · S2 8 · S3 10 · S4 10 · S5 10 · S6 10 · S7 8. Semua ≤10 detik (tidak butuh paket berlangganan untuk panjang klip).
 3. **Draf di 360p** (1 kredit per detik), upscale gratis ke 1080p untuk klip sampai 10 detik. Satu putaran 60 detik = **60 kredit**. Target 3 putaran per episode = ±180 kredit (estimasi; harga resmi bisa berubah).
-4. **Dialog dan audio native Omni.** Tulis ucapan langsung di prompt (format di naskah). Aturan praktis (usulan saya, bukan angka resmi): maksimal 2 pembicara per shot dan sekitar 2 kata per detik, jadi paling banyak ±16–18 kata di klip 8–10 detik, supaya ada jeda napas dan lip-sync tidak terburu-buru. Samakan jangkar suara di setiap prompt. Untuk narasi, pakai [NARASI] dengan mulut tertutup. Kalau suara tokoh melenceng antar klip, regenerasi klip itu, jangan merantai edit.
+4. **Dialog dan audio native Omni, karakter lewat Flow Characters.** Panggil karakter dengan `@Nama` dan tulis ucapan langsung di prompt (format di `03_prompt_pack_s1.md`; kolom prompt di file 02 hanya draf awal). Aturan praktis (usulan saya, bukan angka resmi): maksimal 2 pembicara per shot dan sekitar 2 kata per detik, jadi paling banyak ±16–18 kata di klip 8–10 detik, supaya ada jeda napas dan lip-sync tidak terburu-buru. Samakan jangkar suara di setiap prompt. Untuk narasi, pakai [NARASI] dengan mulut tertutup. Kalau suara tokoh melenceng antar klip, regenerasi klip itu, jangan merantai edit.
 5. **Teks apa pun** (Lontar, subtitle, angka) ditambahkan di editor, bukan di Omni.
 6. **Aksi cepat, kerumunan, tangan detail:** hindari. Gunakan fallback: gambar diam + gerak ambien, siluet, efek speed lines.
 7. **Edit lanjutan:** maksimal 3–4 giliran per klip, lalu regenerasi dari awal agar tidak drift.
