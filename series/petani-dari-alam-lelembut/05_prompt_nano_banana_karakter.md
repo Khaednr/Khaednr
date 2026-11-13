@@ -42,7 +42,7 @@ Use the attached image as the exact character reference. 2D Japanese anime chara
 Use the attached image as the exact character reference. 2D Japanese anime character illustration, cel-shaded flat colors with soft two-tone shadows, clean thin dark outlines with consistent line weight, simple shading, no photorealism, no 3D render. Create an expression sheet of the same character: a grid of six head-and-shoulders portraits arranged in 3 columns by 2 rows, same camera angle, same scale and same lighting in every cell. Expressions in reading order: 1) tired neutral with half-lidded eyes; 2) deadpan flat stare with one eyebrow raised; 3) flustered panic with wide eyes and a sweat drop; 4) sudden realization with bright eyes and a small confident smirk; 5) amazed with mouth slightly open and eyes wide; 6) sheepish embarrassed smile with one hand rubbing the back of his neck; Plain flat light grey background, soft even studio lighting, no cast shadows. Keep the face, hair, proportions, colors and costume exactly identical to the reference image; do not redesign anything. Correct anatomy, five fingers on each hand, symmetrical eyes. No text, no letters, no numbers, no labels, no captions, no logos, no watermark.
 ```
 
-**Titik periksa khusus:** The lanyard card must stay blank and orange. The flip-flops must be green.
+**Titik periksa khusus:** The lanyard must stay orange and its card blank. The flip-flops must be green.
 
 ## 3.2 Laras (arwah penjaga lumbung)
 
