@@ -7,10 +7,28 @@ Status: DRAF produksi. Tidak ada yang diposting atau dijadwalkan sebelum Anda me
 - **Prompt Omni:** tempel **STYLE BLOCK** dari bible di depan, lalu tag karakter yang tertulis di kolom (misalnya [DANU]), lalu isi baris prompt. Lampirkan character sheet sebagai ingredients.
 - **Grid durasi tetap:** S1 4 dtk · S2 8 · S3 10 · S4 10 · S5 10 · S6 10 · S7 8 = 60 detik. Tambahkan **kartu penutup 1–5 detik** di editor (nomor episode + teaser) untuk TikTok 61–65 detik.
 - **Struktur beat:** S1 hook visual · S2 konteks satu kalimat · S3–S4 eskalasi · S5 belokan (twist) · S6 konsekuensi · S7 cliffhanger.
-- **VO:** narasi Danu dan suara karakter dibuat terpisah (bahasa Indonesia). Mulut karakter tidak perlu sinkron.
+- **Audio:** dibuat langsung di Omni. Kolom "Audio (ID)" berisi ucapan yang harus dimasukkan ke prompt, dalam tanda kutip. "VO Danu" = narasi off-screen ([NARASI], mulut tertutup); nama karakter = ucapan on-screen. SFX di kolom itu bisa ditulis di prompt sebagai "Sound: ...".
 - **Overlay:** semua teks (Lontar, subtitle, angka) ditambahkan di editor.
 - **Risiko shot:** R (rendah) / S (sedang) / T (tinggi). Shot T punya fallback gambar diam.
 - **Hitungan kredit:** semua klip ≤10 detik di 360p = 60 kredit per putaran episode; estimasi 3 putaran = 180 kredit per episode.
+
+---
+
+## Format dialog di prompt
+
+Rumus: `STYLE BLOCK` + `tag karakter` + aksi/kamera + `Audio:` + jangkar suara + ucapan. Contoh dari Ep 1:
+
+**Narasi (S2):**
+```
+[STYLE BLOCK] [DANU] stands on a narrow paddy dike at night looking at two cracked dry rice plots, shoulders slumped, moonlit. Slow push-in from medium shot to medium close-up. Audio: [NARASI] says in Indonesian: "Aset tersisa: dua petak sawah warisan kakek. Retak. Tak ada air." Soft night crickets.
+```
+
+**Ucapan on-screen (S5):**
+```
+[STYLE BLOCK] [LARAS] floats out of the mist toward [DANU] in a two-shot and points at a distant huge barn while he stares; held poses, hair and sash sway gently. Audio: [LARAS voice] says in Indonesian, calm and formal, with a faint echo: "Hanya manusia yang bisa menanam. Kami tidak bisa menyentuh apa pun."
+```
+
+Aturan cepat: satu shot = satu adegan kontinu, maksimal 2 pembicara, sekitar 2 kata per detik. Jika lip-sync melenceng, regenerasi klip. Jangan ganti kata di tengah edit berantai.
 
 ---
 
@@ -189,7 +207,7 @@ Edukasi: lunas hutang dengan bunga tetap (100 + 20 = 120 pikul).
 1. Siapkan character sheet dan still lokasi (Nano Banana). Kunci tampilan sebelum shot pertama.
 2. Generate S1–S7 di **360p**, satu per satu, dengan style block + tag karakter. Setiap shot 2–3 percobaan.
 3. Pilih shot terbaik, **upscale ke 1080p** (gratis sampai 10 detik).
-4. Buat VO Indonesia (ElevenLabs atau rekaman sendiri), SFX, dan musik milik sendiri.
+4. Ambil audio langsung dari klip Omni. Samakan level suara antar klip; tambah SFX atau musik milik sendiri bila perlu.
 5. Susun di editor: potong antar shot, overlay Lontar dan subtitle, kartu penutup 1–5 detik.
 6. Ekspor 9:16, 61–65 detik (TikTok) dan 60 detik (YouTube Shorts).
 7. Aktifkan label AI. Tulis deskripsi. **Minta persetujuan sebelum jadwal atau posting.**
@@ -211,5 +229,5 @@ Produksi **Ep 1–3 dulu**, bukan seluruh musim. Tahan sampai ada data retensi:
 
 1. Ukur: rasio tonton vs geser (YouTube Studio), retensi 3–5 detik (TikTok), penyelesaian, views Ep N+1 / Ep N, pengikut per 1.000 views.
 2. Kalibrasi ambang setelah 3 episode, bukan memakai angka standar industri (tidak ada tolok ukur resmi untuk video organik 60 detik).
-3. Variabel eksplisit yang diuji: apakah gaya anime AI diterima; apakah narasi + subtitle (tanpa sinkron bibir) cukup; apakah edukasi ringan menambah retensi.
+3. Variabel eksplisit yang diuji: apakah gaya anime AI diterima; apakah suara dan lip-sync Omni konsisten antar klip dan antar episode; apakah edukasi ringan menambah retensi.
 4. Keputusan setelah Ep 1–3: lanjut Ep 4–8, ubah gaya, atau ganti ke konsep cadangan (Pantangan Desa).

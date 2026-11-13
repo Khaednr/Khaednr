@@ -14,7 +14,7 @@ Status: DRAF produksi. Belum ada yang dijadwalkan atau diposting. Semua karakter
 | Tagline | "Ini bukan sihir. Ini agronomi." |
 | Mesin cerita | Tiap episode = satu masalah pertanian nyata + solusi sains + satu cliffhanger. Edukasi ringan jadi pembeda dari konten isekai generik. |
 
-Catatan keputusan: cerita ditulis agar tidak bergantung pada sinkron bibir bahasa Indonesia (belum terbukti di Omni). Karakter berbicara lewat suara di luar layar dan subtitle. Mulut karakter tidak perlu bergerak (pose tahan), seperti teknik limited animation anime.
+Catatan keputusan: audio dan dialog dibuat langsung di Omni (kreator sudah menguji suara Indonesia dan hasilnya memadai). Dokumentasi resmi Google hanya mengevaluasi bahasa Inggris, jadi kualitas lip-sync dan konsistensi suara antar klip tetap dipantau di Ep 1–3. Gaya limited animation (pose tahan, gerak minimal) tetap dipakai untuk menghemat percobaan, bukan untuk menghindari dialog.
 
 ## 2. Aturan dunia (jangan dilanggar antar episode)
 
@@ -81,7 +81,7 @@ Nama desa fiktif ("Sidasenja") dan tidak merujuk tempat sungguhan.
 **Style block (tempel di awal SETIAP prompt Omni):**
 
 ```
-2D anime, limited animation, flat cel-shaded characters with clean thin dark outlines, painterly twilight backgrounds, palette of indigo dusk, tangerine sky, moss green and firefly gold, soft film grain, vertical 9:16, held poses with only subtle motion. Single continuous shot, no scene cuts, no dialogue, no on-screen text, no subtitles.
+2D anime, limited animation, flat cel-shaded characters with clean thin dark outlines, painterly twilight backgrounds, palette of indigo dusk, tangerine sky, moss green and firefly gold, soft film grain, vertical 9:16, held poses with only subtle motion. Single continuous shot, no scene cuts, no on-screen text, no subtitles.
 ```
 
 Jangan menyebut nama studio, judul anime, atau karakter francais mana pun di prompt.
@@ -94,6 +94,17 @@ Jangan menyebut nama studio, judul anime, atau karakter francais mana pun di pro
 [COKRO] knee-high bald imp with big round eyes, red shorts, tiny coin pouch necklace, cheeky grin
 [GENDRO] towering furry dark-brown spirit boss, warm orange eyes, brown batik beskap jacket, large gemstone ring, carved cane, polite sly smile, comic not frightening
 [LURAH] big friendly moss-green ogre village head with small tusks, plaid sarong, headband, worried kind face
+```
+
+**Jangkar suara (tempel di prompt setiap shot yang ada ucapan, agar suara tidak berubah antar klip):**
+
+```
+[DANU voice] tired, dry, deadpan young adult male voice, mid-low pitch, speaks Indonesian
+[LARAS voice] soft, clear, formal young female voice with a faint echo, speaks Indonesian
+[COKRO voice] high-pitched, fast, cheeky child-like voice, calls Danu "Bos", speaks Indonesian
+[GENDRO voice] deep, slow, smooth and polite villain voice, soft chuckle "hoh-hoh", speaks Indonesian
+[LURAH voice] warm deep slightly nervous voice, speaks Indonesian
+[NARASI] Danu's voice as an off-screen narrator, mouth closed
 ```
 
 ## 6. Aset yang dibuat dulu (Nano Banana, sebelum Omni)
@@ -112,7 +123,7 @@ Aset minimum: 5 character sheet (Danu, Laras, Cokro, Gendro, Lurah), 5 still lok
 1. **Satu klip = satu shot kontinu.** Selalu tulis "single continuous shot, no scene cuts". Pemotongan dilakukan di editor.
 2. **Grid durasi tetap per episode (total 60 detik):** S1 4 dtk · S2 8 · S3 10 · S4 10 · S5 10 · S6 10 · S7 8. Semua ≤10 detik (tidak butuh paket berlangganan untuk panjang klip).
 3. **Draf di 360p** (1 kredit per detik), upscale gratis ke 1080p untuk klip sampai 10 detik. Satu putaran 60 detik = **60 kredit**. Target 3 putaran per episode = ±180 kredit (estimasi; harga resmi bisa berubah).
-4. **Dialog:** tambahkan "no dialogue" di prompt. Suara dibuat terpisah (suara Indonesia lewat ElevenLabs atau rekaman sendiri), lalu disinkronkan di editor.
+4. **Dialog dan audio native Omni.** Tulis ucapan langsung di prompt (format di naskah). Aturan praktis (usulan saya, bukan angka resmi): maksimal 2 pembicara per shot dan sekitar 2 kata per detik, jadi paling banyak ±16–18 kata di klip 8–10 detik, supaya ada jeda napas dan lip-sync tidak terburu-buru. Samakan jangkar suara di setiap prompt. Untuk narasi, pakai [NARASI] dengan mulut tertutup. Kalau suara tokoh melenceng antar klip, regenerasi klip itu, jangan merantai edit.
 5. **Teks apa pun** (Lontar, subtitle, angka) ditambahkan di editor, bukan di Omni.
 6. **Aksi cepat, kerumunan, tangan detail:** hindari. Gunakan fallback: gambar diam + gerak ambien, siluet, efek speed lines.
 7. **Edit lanjutan:** maksimal 3–4 giliran per klip, lalu regenerasi dari awal agar tidak drift.
